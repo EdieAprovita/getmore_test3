@@ -33,16 +33,17 @@ img {
   width: 100%;
 }
 
-div.logo-footer {
+div.logo__footer {
   grid-column: 1 / 3;
   grid-row: 2 / 3;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: -5rem;
+  margin-left: 1245px;
 }
 
-img.logo-footer {
+img.logo__footer {
   width: 55px;
   height: 55px;
 }
@@ -301,7 +302,7 @@ button.about__us:hover {
   }
 }
 
-.section-2 .information {
+.section-2 .raquets {
   grid-column: 1 / 3;
   grid-row: 1 / 2;
   display: flex;
@@ -310,7 +311,7 @@ button.about__us:hover {
   justify-content: center;
 }
 
-.raquet__section h2 {
+.raquets h2 {
   font-size: 2rem;
   font-weight: normal;
   letter-spacing: -0.1px;
@@ -320,12 +321,12 @@ button.about__us:hover {
 }
 
 @media screen and (min-width: 769px) {
-  .section-2 .raquet__section {
+  .section-2 .raquets {
     grid-column: 2 / 3;
     justify-content: left;
   }
 
-  .raquet__section h2 {
+  .raquets h2 {
     font-size: 50px;
     margin-bottom: 2rem;
   }
@@ -401,7 +402,7 @@ button.about__history {
 .section-3 .ball {
   width: 100%;
   height: 100%;
-  background-image: url(../img/pelota.png);
+  background-image: url(../assets/images/pelota.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -510,7 +511,7 @@ button.green img.arrow {
   height: 13px;
 }
 
-button.verde img.arrow__green {
+button.green img.arrow__green {
   transform: rotate(180deg);
 }
 
